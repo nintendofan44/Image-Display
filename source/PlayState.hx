@@ -30,7 +30,7 @@ class PlayState extends FlxState
 
 		text = new FlxText(0, 1, 0, "This is what you typed:", 64);
 		text.screenCenter(X);
-		add(text);
+		//add(text);
 
 		text2 = new FlxText(0, 0, 0, daText, 64);
 		text2.screenCenter();
