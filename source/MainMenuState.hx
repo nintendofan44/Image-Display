@@ -42,5 +42,6 @@ class MainMenuState extends FlxState
 	{
 		FlxG.switchState(new PlayState());
 		daText = type.text;
+		FlxG.sound.playMusic(AssetPaths.sound(daText), 1, false);
 	}
 }
